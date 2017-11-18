@@ -19,6 +19,11 @@ Page({
     duration: 500
   },
 
+  callPhone: (e) => {
+    wx.makePhoneCall({
+      phoneNumber: '18607668113' //仅为示例，并非真实的电话号码
+    })
+  },
   changeIndicatorDots: function (e) {
     this.setData({
       indicatorDots: !this.data.indicatorDots

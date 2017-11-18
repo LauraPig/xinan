@@ -7,18 +7,29 @@
     </swiper-item>
   </block>
 </swiper>
-<block class="button">
-  <button bindtap="changeIndicatorDots"> indicator-dots </button>
-  <button bindtap="changeAutoplay"> autoplay </button>
-</block>
+<view class="title-view">
+ <span class="title-span">新安机动车救援</span>
+</view>
+<view class='qbdd'>
+  <navigator>
+  <image class='location-icon' src='../../img/icon/location.png'></image>
+  <span style="margin-left: 5px">新兴县太平镇金沙开发区213号</span>
+  <span class='right-icon'>></span>
+  </navigator>
+</view>
+<view class='qbdd'>
+  <navigator>
+  <image class='location-icon' src='../../img/icon/time.png'></image>
+  <span style="margin-left: 5px">全天24小时</span>
+  </navigator>
+</view>
+<view class='qbdd'>
+  <navigator>
+  <image class='location-icon' src='../../img/icon/phone.png'></image>
+  <span style="margin-left: 5px">18607668113/13537942979</span>
+  <button bindtap='callPhone' class='right-button' size='mini'>立即拨打</button>
+  </navigator>
+</view>
 
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="durationChange" show-value min="1000" max="10000"/> duration
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
-<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
+
+
