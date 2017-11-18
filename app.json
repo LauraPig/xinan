@@ -3,7 +3,9 @@
     "pages/swiper/swiper",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/map/location",
+    "pages/map2/maptest"
   ],
   "window": {
     "backgroundTextStyle": "light",

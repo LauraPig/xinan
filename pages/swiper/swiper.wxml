@@ -11,10 +11,10 @@
  <span class="title-span">新安机动车救援</span>
 </view>
 <view class='qbdd'>
-  <navigator>
+  <navigator url='../map/location'>
   <image class='location-icon' src='../../img/icon/location.png'></image>
   <span style="margin-left: 5px">新兴县太平镇金沙开发区213号</span>
-  <span class='right-icon'>></span>
+  <image class='location-icon right-icon' src='../../img/icon/right.png'></image>
   </navigator>
 </view>
 <view class='qbdd'>
