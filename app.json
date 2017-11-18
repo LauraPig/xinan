@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/swiper/swiper",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新安机动车救援",
+    "navigationBarTextStyle": "black"
+  }
+}

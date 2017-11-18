@@ -1,0 +1,9 @@
+/* pages/swiper/swiper.wxss */
+.slide-image{
+  width: 100%;
+  height: 250px;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+}
