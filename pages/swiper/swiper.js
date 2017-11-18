@@ -1,7 +1,7 @@
 // pages/swiper/swiper.js
 const img = require('../../utils/img.js');
+const initContent = '本公司提供365天24小时现场救援、本公司提供365天24小时现场救援、专业拖车，紧急修理，  应急加油，车辆困境特种救援。\n电话：0766-2955991 \n手机：13826851933';
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -13,6 +13,7 @@ Page({
       '../../img/4.jpg',
       '../../img/5.jpg',
     ],
+    content: initContent,
     indicatorDots: true,
     autoplay: true,
     interval: 2500,
@@ -21,7 +22,8 @@ Page({
 
   callPhone: (e) => {
     wx.makePhoneCall({
-      phoneNumber: '18607668113' //仅为示例，并非真实的电话号码
+      phoneNumber: '13826851933',
+      // phoneNumber: '0766-2955991' //仅为示例，并非真实的电话号码
     })
   },
   changeIndicatorDots: function (e) {
