@@ -1,5 +1,5 @@
 <!--pages/swiper/swiper.wxml-->
-<swiper indicator-dots="{{indicatorDots}}"
+<swiper style='height: 180px' indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
